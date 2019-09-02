@@ -3,8 +3,12 @@ filetype on
  
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
- 
- 
+
+" github 仓库中的插件 "
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'Valloric/YouCompleteMe'
+
 " 这里根据自己需要的插件来设置，以下是我的配置 "
 "
 " YouCompleteMe:语句补全插件
@@ -30,8 +34,7 @@ let g:ycm_min_num_of_chars_for_completion=2                 " 从第2个键入�
  
  
  
-" github 仓库中的插件 "
-Plugin 'VundleVim/Vundle.vim'
+
  
  
 Plugin 'vim-airline/vim-airline'
